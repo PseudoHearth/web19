@@ -1,0 +1,39 @@
+#game-container {
+    width: 820px; /* Розмір контейнера для гри, щоб вміщати 4 блоки в ряд */
+    margin: 0 auto; /* Центруємо контейнер по горизонталі */
+}
+
+#game-board {
+    width: 800px; /* Розмір поля для гри */
+    height: 800px; /* Розмір поля для гри */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.block {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    box-sizing: border-box; /* Включаємо границі в обчислення розміру */
+}
+
+.block img {
+    width: 100%; /* Встановлюємо ширину зображення на 100% ширини блоку */
+    height: 100%; /* Встановлюємо висоту зображення на 100% висоти блоку */
+}
+
+
+#game-board {
+    width: 850px; /* Ширина 4 блоків * (ширина блоку + відступи) */
+    text-align: center; /* Для вирівнювання блоків по центру */
+}
+
+#animal-display img {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 10px auto;
+    display: block; /* Щоб зображення тварини також було вирівняне по центру */
+}
